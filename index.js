@@ -20,7 +20,7 @@ module.exports = ({ markdownAST }, pluginOptions) => {
             color: #A7B6C2;
             text-align: right;
             height: 1px;">
-              <span style="top: -12px; position: relative;">${node.lang || ''}</span>
+              <span style="top: -14px; position: relative;">${node.lang || ''}</span>
           </div>
         </deckgo-highlight-code>
       `
