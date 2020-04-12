@@ -19,8 +19,8 @@ module.exports = ({ markdownAST }, pluginOptions) => {
             font-family: 'Courier New', Courier, monospace;
             color: #A7B6C2;
             text-align: right;
-            height: 1px;">
-              <span style="top: -16px; position: relative;">${node.lang || ''}</span>
+            height: 16px;">
+              <span style="top: 0; position: relative;">${node.lang || ''}</span>
           </div>
         </deckgo-highlight-code>
       `
