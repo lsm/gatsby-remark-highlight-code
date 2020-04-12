@@ -11,7 +11,7 @@
   },
   "peerDependencies": {
     "gatsby": "^2.0.0",
-    "@deckdeckgo/highlight-code": "^1.0.2"
+    "@deckdeckgo/highlight-code": "https://github.com/lsm/highlight-code.git"
   },
   "repository": {
     "type": "git",
